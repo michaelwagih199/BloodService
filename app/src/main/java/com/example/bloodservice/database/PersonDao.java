@@ -5,9 +5,9 @@ import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Update;
-import android.support.v4.app.Person;
 
 
+import com.example.bloodservice.models.Person;
 
 import java.util.List;
 

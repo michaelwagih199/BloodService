@@ -19,24 +19,27 @@ public class Person {
     private String bloodType;
     @ColumnInfo(name ="lastDate")
     private String lastDate;
+    @ColumnInfo(name = "faceBookLink")
+    private String faceBookLink;
 
-
-    public Person(int id, String name, String number, String notes, String bloodType, String lastDate) {
+    public Person(int id, String name, String number, String notes, String bloodType, String lastDate,String faceBookLink) {
         this.id = id;
         this.name = name;
         this.number = number;
         this.notes = notes;
         this.bloodType = bloodType;
         this.lastDate = lastDate;
+        this.faceBookLink = faceBookLink;
     }
 
     @Ignore
-    public Person(String name, String number, String notes, String bloodType, String lastDate) {
+    public Person(String name, String number, String notes, String bloodType, String lastDate,String faceBookLink) {
         this.name = name;
         this.number = number;
         this.notes = notes;
         this.bloodType = bloodType;
         this.lastDate = lastDate;
+        this.faceBookLink = faceBookLink;
     }
 
     public int getId() {
@@ -85,5 +88,13 @@ public class Person {
 
     public void setLastDate(String lastDate) {
         this.lastDate = lastDate;
+    }
+
+    public String getFaceBookLink() {
+        return faceBookLink;
+    }
+
+    public void setFaceBookLink(String faceBookLink) {
+        this.faceBookLink = faceBookLink;
     }
 }

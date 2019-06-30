@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#FEB302</color>
+    <color name="colorPrimaryDark">#3B3052</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- App color schema -->
+    <color name="ofwhite">#FAFAFC</color>
+    <color name="pink">#F63466</color>
+    <color name="yello">#FEB302</color>
+    <color name="blue">#3B3052</color>
+    <color name="gray">#BEBEBE</color>
+
+
 </resources>
